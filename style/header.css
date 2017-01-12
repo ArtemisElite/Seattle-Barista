@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/coffee.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100px;
+	background-color: white;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	margin: 0;
+	transform: translate(0, -50%);
+}
+
+.navigationlist ul {
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	margin: 0;
+	transform: translate(0, -50%);
+}
+
+.navigationlist ul li {
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid black;
+}
+
+.navigationlist ul li a {
+	text-align: center;
+}
+
+
+
+
+
+

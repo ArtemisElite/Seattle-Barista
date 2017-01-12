@@ -1,0 +1,23 @@
+section {
+	position: absolute;
+	top: 30%;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	transform: translate(0, -50%);
+	text-align: center;
+	color: white;
+	width: 100%;
+	z-index: -1;
+}
+
+h2 {
+	font-size: 300%;
+	margin-top: 200px;
+}
+
+h3 {
+	display: inline;
+	padding: 50px;
+
+}
